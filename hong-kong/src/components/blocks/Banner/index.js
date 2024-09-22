@@ -13,7 +13,7 @@ const Banner = () => {
                     <div className={styles.info}>
                         <div className={styles.title}>
                             <b> На Заре!
-                                Чайная в Ростове-на-Дону
+                                <p></p>Чайная в Ростове-на-Дону
                             </b>
                         </div>
                         <div className={styles.subTitle}>
