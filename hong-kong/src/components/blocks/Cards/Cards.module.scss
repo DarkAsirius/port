@@ -1,4 +1,4 @@
-.wrapper{
+body{
     background-color: #151b28;
 }
 .cards{
@@ -6,9 +6,12 @@
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
+    justify-content: space-between;
     margin: 25px auto;
     width: 100%;
-
+    @media screen and (max-width: 956px) {
+        flex-direction: column;
+    }
 }
 
 .card{
@@ -19,9 +22,12 @@
     padding: 35px 10px 50px;
     border-radius: 30px;
     background-color: #e8ab5f;
-    height: 185px;
-    width: 285px;
+    width: 23%;
     transition: 0.3s;
+    @media screen and (max-width: 956px) {
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 .text{
@@ -30,10 +36,6 @@
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-}
-
-.card .imgCard{
-    margin: 0 auto 10px;
 }
 
 .card:hover{

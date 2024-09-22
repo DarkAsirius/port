@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     background-color: #151b28;
+    font-family: 'Monserat', sans-serif;
     @media screen and (max-width: 1220px) {
         height: auto;
         flex-direction: column;
@@ -15,7 +16,7 @@
     display: flex;
     width: 100%;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -26,7 +27,7 @@
     object-fit: cover;
 }
 
-.text h2{
+.title{
     font-weight: 700;
     font-size: 25px;
     margin: 0 0 25px;
@@ -40,4 +41,16 @@
     font-size: 18px;
     margin-right: 30px;
 
+}
+
+.list{
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.subText{
+    margin-bottom: 10px;
+    font-weight: 520;
 }
